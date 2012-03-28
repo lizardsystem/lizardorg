@@ -3,6 +3,9 @@
 // -----------------------------------------------------
 
 
+// Lizard customizations are at the bottom.
+
+
 
 // GLOBAL VALUES
 // --------------------------------------------------
@@ -29,6 +32,7 @@
 @orange:                #f89406;
 @pink:                  #c3325f;
 @purple:                #7a43b6;
+
 
 
 // Scaffolding
@@ -199,3 +203,22 @@
 // -------------------------
 @fluidGridColumnWidth:    6.382978723%;
 @fluidGridGutterWidth:    2.127659574%;
+
+
+
+
+// Lizard values. Dark and middle green; light is gray.
+@dark: #115e67;
+@middle: #7fa9ae;
+@light: #d9d9d6;
+
+// A green navbar. We customize bootstrap's navbar colors here.
+@navbarBackground:                @dark;
+@navbarBackgroundHighlight:       @middle;
+@navbarText:                      @white;
+@navbarLinkColor:                 @white;
+@navbarLinkColorHover:            @light;
+
+// Bootstrap's link color is used in a lot of places. I'd rather keep it blue,
+// but just making it @dark is easier for customization.
+@linkColor: @dark;
