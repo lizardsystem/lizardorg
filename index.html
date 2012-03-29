@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Lizard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le styles -->
+    <link href="bootstrap/docs/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap/docs/assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon"
+          href="http://twitter.github.com/bootstrap/assets/ico/favicon.ico">
+    <!--
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed"
+          href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">
+    -->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Lizard</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#open_source">Open source</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="hero-unit">
+        <h1>Lizard, the developer info</h1>
+        <p>
+          Lizard is open source. Lizard is intended for geographic water
+          information websites. Lizard is written
+          in <a href="http://python.org">Python</a>
+          and <a href="http://www.djangoproject.com">Django</a>. Lizard isn't
+          perfect yet and not everything is as easy to install or extend or to
+          build upon, but we're really open source and we're working hard to
+          make everything easier and especially neater.
+        </p>
+        <p>
+          The best thing about Lizard, apart from being open source, is that
+          it is pluggable. At the core is a <b>plugin mechanism</b> for
+          getting any kind of data source into Lizard and onto the map.
+        </p>
+        <p><a class="btn btn-primary btn-large"
+              href="https://github.com/lizardsystem/">Yes, we're on github! »</a></p>
+      </div>
+
+      <h1 id="open_source">Open source</h1>
+      <div class="row">
+        <div class="span4">
+          <h2>Github</h2>
+          <p>
+            The gold standard for open sourciness right now is <b>being on
+            github</b>. Yes, we
+            are <a href="https://github.com/lizardsystem/">on github</a>!
+            You'll see the base lizard-ui and lizard-map Django apps and all
+            of the plugins.
+          </p>
+          <p>
+            Not all plugins are perfect and not all of 'em are
+            well-documented. But they're all there. And they all have
+            tests. And at least a readme. Some have quite good documentation,
+            actually!
+          </p>
+        </div>
+        <div class="span4">
+          <h2>Python package index</h2>
+          <p>
+            The Python package index ("pypi") is the canonical place for
+            Python packages. At the moment,
+            only <a href="http://pypi.python.org/pypi/lizard-ui">lizard-ui</a>
+            and <a href="http://pypi.python.org/pypi/lizard-map">lizard-map</a>
+            are there, but that's on the radar to be rectified. In the end,
+            all Python packages ought to end up in there.
+          </p>
+       </div>
+        <div class="span4">
+          <h2>Documentation</h2>
+          <p>
+            Code without documentation does not exist. For Python packages,
+            the documentation ought to be
+            on <a href="http://readthedocs.org">readthedocs.org</a>. We
+            haven't put the infrastructure in place yet, so for the time being
+            you'll have to make do
+            with <a href="http://doc.lizardsystem.nl/">doc.lizardsystem.nl</a>,
+            which has some non-accessible documentation on several Lizard
+            sites, too.
+          </p>
+          <p>
+            Don't worry, all the documentation there will move to <i>read the
+            docs</i>. As a proof-of-concept, look
+            at <a href="http://sitesetup.readthedocs.org/en/latest/index.html">sitesetup.readthedocs.org</a>.
+          </p>
+        </div>
+      </div>
+
+          <p>
+            Lizard might have a bit of a Dutch bias, but we've our i18n and
+            l10n mostly in place and a lot is available in both Dutch and
+            English.
+          </p>
+
+
+      <hr>
+
+      <footer>
+        <p>© Company 2012</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--
+    <script src="hero_files/jquery.js"></script>
+    <script src="hero_files/bootstrap-transition.js"></script>
+    <script src="hero_files/bootstrap-alert.js"></script>
+    <script src="hero_files/bootstrap-modal.js"></script>
+    <script src="hero_files/bootstrap-dropdown.js"></script>
+    <script src="hero_files/bootstrap-scrollspy.js"></script>
+    <script src="hero_files/bootstrap-tab.js"></script>
+    <script src="hero_files/bootstrap-tooltip.js"></script>
+    <script src="hero_files/bootstrap-popover.js"></script>
+    <script src="hero_files/bootstrap-button.js"></script>
+    <script src="hero_files/bootstrap-collapse.js"></script>
+    <script src="hero_files/bootstrap-carousel.js"></script>
+    <script src="hero_files/bootstrap-typeahead.js"></script>
+    -->
+
+
+</body></html>
